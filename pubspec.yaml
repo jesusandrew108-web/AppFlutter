@@ -1,0 +1,42 @@
+name: flutter_application_1_new
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  mailer: ^6.0.1
+  cupertino_icons: ^1.0.8
+  webview_flutter: ^4.4.1
+  http: ^0.13.6
+  share_plus: ^9.0.0
+  shared_preferences: ^2.2.3
+  sqflite: ^2.3.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  image_picker: ^1.0.4
+  permission_handler: ^11.0.0
+  geolocator: ^12.0.0
+  google_maps_flutter: ^2.13.1
+  local_auth: ^2.3.0
+  flutter_local_notifications: ^18.0.1
+  flutter_blue_plus: ^1.5.0
+
+  esc_pos_bluetooth:
+    git:
+      url: https://github.com/andrey-ushakov/esc_pos_bluetooth.git
+      ref: master
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
